@@ -1,0 +1,32 @@
+server:
+  port: 17003
+
+#服务名
+spring:
+  application:
+    name: wb-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: wb-provider
+          uri: http://127.0.0.1:17001
+          order: 0
+          predicates:
+            - Path=/providerapi/**
+          filters:
+            - StripPrefix=1
+        # 集成eureka注册中心的配置示例
+        - id: wb-consumer
+          uri: lb://WB-CONSUMER
+          predicates:
+          - Path=/consumerapi/**
+          filters:
+          - StripPrefix=1
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:17000/eureka/ #  设置注册中心地址
+  instance:
+    instance-id: ${spring.application.name}:${server.port} #  实例名称
+    prefer-ip-address: true  # 使用ip注册，默认未false使用hostname

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/wb-admin/wb-admin.iml" filepath="$PROJECT_DIR$/wb-admin/wb-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wb-consumer/wb-consumer.iml" filepath="$PROJECT_DIR$/wb-consumer/wb-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wb-eureka/wb-eureka.iml" filepath="$PROJECT_DIR$/wb-eureka/wb-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wb-gateway/wb-gateway.iml" filepath="$PROJECT_DIR$/wb-gateway/wb-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wb-provider/wb-provider.iml" filepath="$PROJECT_DIR$/wb-provider/wb-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wb-tarscloud.iml" filepath="$PROJECT_DIR$/wb-tarscloud.iml" />
+    </modules>
+  </component>
+</project>

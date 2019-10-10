@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/selfListner/selfListner.iml" filepath="$PROJECT_DIR$/selfListner/selfListner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/selfListner/selfListner (1).iml" filepath="$PROJECT_DIR$/selfListner/selfListner (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/selfXSD/selfXSD.iml" filepath="$PROJECT_DIR$/selfXSD/selfXSD.iml" />
+    </modules>
+  </component>
+</project>

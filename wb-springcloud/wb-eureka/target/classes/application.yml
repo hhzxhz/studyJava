@@ -1,0 +1,16 @@
+## server
+server:
+  port: 17000
+
+spring:
+  application:
+    name: eureka-server
+
+##eureka
+#  设置注册中心地址
+eureka:
+  client:
+    register-with-eureka: false # 禁止向eureka注册自己
+    fetch-registry: false # 禁止向eureka寻址
+    service-url:
+          defaultZone: http://127.0.0.1:${server.port}/eureka/
